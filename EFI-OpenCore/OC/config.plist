@@ -827,8 +827,6 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -1019,6 +1017,16 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>BiosVideo.efi</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>OpenPartitionDxe.efi</string>
 			</dict>
 			<dict>
@@ -1153,6 +1161,10 @@
 		</dict>
 		<key>Output</key>
 		<dict>
+			<key>UIScale</key>
+			<integer>0</integer>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
@@ -1221,6 +1233,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ForceOcWriteFlash</key>
 			<false/>
 			<key>ActivateHpetSupport</key>

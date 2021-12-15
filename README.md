@@ -12,7 +12,7 @@
 - Audio : ALC887
 
 ## Current EFI versions
-- OpenCore : 0.7.5
+- OpenCore : 0.7.6
 - Clover : r5138
 
 ## Everything worked well while I was using(Opencore)
