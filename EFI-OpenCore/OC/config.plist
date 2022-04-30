@@ -430,6 +430,8 @@
 		<key>Block</key>
 		<array>
 			<dict>
+				<key>Strategy</key>
+				<string>Disable</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>Comment</key>
@@ -635,6 +637,10 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>AppleCpuPmCfgLock</key>
 			<true/>
 			<key>AppleXcpmCfgLock</key>
@@ -690,6 +696,13 @@
 	</dict>
 	<key>Misc</key>
 	<dict>
+		<key>Serial</key>
+		<dict>
+			<key>Override</key>
+			<false/>
+			<key>Init</key>
+			<false/>
+		</dict>
 		<key>BlessOverride</key>
 		<array/>
 		<key>Boot</key>
@@ -723,6 +736,8 @@
 		</dict>
 		<key>Debug</key>
 		<dict>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>AppleDebug</key>
 			<true/>
 			<key>ApplePanic</key>
@@ -733,8 +748,6 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -959,6 +972,12 @@
 		</dict>
 		<key>AppleInput</key>
 		<dict>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
+			<key>PointerPollMax</key>
+			<integer>80</integer>
+			<key>PointerPollMask</key>
+			<integer>-1</integer>
 			<key>AppleEvent</key>
 			<string>Builtin</string>
 			<key>CustomDelays</key>
@@ -976,23 +995,27 @@
 		</dict>
 		<key>Audio</key>
 		<dict>
+			<key>MinimumAudibleGain</key>
+			<integer>-55</integer>
+			<key>MinimumAssistGain</key>
+			<integer>-30</integer>
+			<key>MaximumGain</key>
+			<integer>-15</integer>
+			<key>DisconnectHda</key>
+			<false/>
+			<key>AudioOutMask</key>
+			<integer>1</integer>
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
-			<key>AudioOut</key>
-			<integer>0</integer>
 			<key>AudioSupport</key>
 			<false/>
-			<key>MinimumVolume</key>
-			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
-			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
 		<key>ConnectDrivers</key>
