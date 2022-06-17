@@ -23,4 +23,4 @@
 
 ## macOS BigSur(Clover Tested) and Monterey(Opencore Tested) are working well on this EFI
 
-## macOS Venture Developer Beta 1 Currently not working(in opencore booting step)
+## macOS Ventura Developer Beta 1 Currently not working(in opencore booting step)
