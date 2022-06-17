@@ -757,12 +757,8 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1022,6 +1018,26 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ToggleSipEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string></string>
