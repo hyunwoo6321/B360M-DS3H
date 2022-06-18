@@ -12,7 +12,7 @@
 - Audio : ALC887
 
 ## Current EFI versions
-- OpenCore : 0.8.1
+- OpenCore : 0.8.2dev
 - Clover : r5138
 
 ## Everything worked well while I was using(Opencore)
@@ -23,4 +23,4 @@
 
 ## macOS BigSur(Clover Tested) and Monterey(Opencore Tested) are working well on this EFI
 
-## macOS Venture Developer Beta 1 Currently not working(in opencore booting step)
+## macOS Venture Developer Beta 1 Tested(Opencore)
